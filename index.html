@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Drolato Order</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<header>
+		<h1>Drolato Order</h1>
+	</header>
+
+	<main>
+		<div class="heading">
+			<h2>Product</h2>
+			<h2>Price</h2>
+			<h2>Scoops</h2>
+		</div>
+
+		<div class="product-details">
+			<div class="product-img_name">
+				<img src="product1.jpeg" alt="flavoured cosmetics">
+				<h6>Coconut mango</h6>
+			</div>
+			<p>$<span id="prod1">2.30</span> per scoop</p>
+			<input type="number" name="coco" value="">
+		</div>
+
+		<div class="product-details">
+			<div class="product-img_name">
+				<img src="product2.jpeg" alt="flavoured cosmetics">
+				<h6>Salted Caramel</h6>
+			</div>
+			<p>$<span id="prod2">2.50</span> per scoop</p>
+			<input type="number" name="caramel" value="">
+		</div>
+
+		<div class="product-details">
+			<div class="product-img_name">
+				<img src="product3.jpeg" alt="flavoured cosmetics">
+				<h6>Strawberries & Cream</h6>
+			</div>
+			<p>$<span id="prod3">1.90</span> per scoop</p>
+			<input type="number" name="berry" value="">
+		</div>
+
+		<hr>
+		<div class="checkout-area">
+			<label for="cup">cup<input type="radio" name="type" value="cup" ></label>
+			<label for="cone">cone<input type="radio" name="type" value="cone"></label>
+			<button id="checkout">checkout</button>
+			<input type="text" id="name" placeholder="enter your name">
+			<!-- <div id="btn">test amount feature</div> -->
+		</div>
+
+	</main>
+	<script src="script.js">
+	</script>
+</body>
+
+</html>
